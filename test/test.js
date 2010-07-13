@@ -19,6 +19,7 @@ var dir = arguments[1];
 var jq = parse( read(arguments[0]) );
 
 var testFile = [];
+var testFromChen = "hello world";
 
 String.prototype.decode = function() {
 	return this.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
